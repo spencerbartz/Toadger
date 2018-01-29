@@ -8,3 +8,5 @@
 *.PNG
 *.ico
 *.ICO
+node_modules
+

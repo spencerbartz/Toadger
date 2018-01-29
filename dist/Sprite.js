@@ -7,8 +7,8 @@
 class Sprite {
   constructor(img) {
     this.img = img;
-    this.x   = 0;
-    this.y   = 0;
+    this.x = 0;
+    this.y = 0;
   }
 
   getX() {
