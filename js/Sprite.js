@@ -4,7 +4,7 @@
 * Class Sprite
 * */
 
-class Sprite {
+export default class Sprite {
   constructor(img) {
     this.img = img;
     this.x   = 0;

@@ -1,6 +1,6 @@
 /*jshint esversion: 6 */
 
-var sp = require('Sprite').Sprite;
+import Sprite from 'Sprite';
 
 console.log("Initiating Game Engine");
 

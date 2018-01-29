@@ -1,14 +1,20 @@
 "use strict";
 
-/*jshint esversion: 6 */
+var _Sprite = require("Sprite");
 
-var sp = require('Sprite').Sprite;
+var _Sprite2 = _interopRequireDefault(_Sprite);
 
-console.log("Initiating Game Engine");
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var s = new Sprite("images/car1.gif");
+console.log("Initiating Game Engine"); /*jshint esversion: 6 */
+
+var s = new _Sprite2.default("images/car1.gif");
 console.log(s.toString());
 "use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -54,3 +60,5 @@ var Sprite = function () {
 
   return Sprite;
 }();
+
+exports.default = Sprite;
