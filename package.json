@@ -32,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/spencerbartz/Toadger/issues"
   },
-  "homepage": "https://github.com/spencerbartz/Toadger#readme"
+  "homepage": "https://github.com/spencerbartz/Toadger#readme",
+  "dependencies": {
+    "braces": "^3.0.2"
+  }
 }
