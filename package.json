@@ -10,7 +10,7 @@
     "babel-preset-es2015": "^6.24.1",
     "http-server": "^0.11.1",
     "webpack": "^4.35.3",
-    "webpack-cli": "^3.3.6"
+    "webpack-cli": "^3.3.12"
   },
   "scripts": {
     "bbabel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
